@@ -1,0 +1,26 @@
+.Flag{
+    box-shadow: 0 2px 17px -12px black;
+    border-radius:10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    &:hover{
+        transform:scale(1.1);
+    }
+    .info{
+        padding:20px;
+        h4{
+            margin-bottom:20px;
+        }
+        div{
+            margin-bottom:5px;
+            font-size:14px;
+        }
+    }
+    img{
+        width:280px;
+        height:180px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;;
+    }
+}
