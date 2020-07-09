@@ -1,0 +1,48 @@
+
+// Dark mode elements
+$DarkBlue: hsl(209, 23%, 22%);
+
+// Dark mode background
+$veryDarkBlue: hsl(207, 26%, 17%);
+
+// Light mode text
+$veryDarkBlue: hsl(200, 15%, 8%);
+
+// Light mode input
+$darkGray: hsl(0, 0%, 52%);
+
+// Light mode background
+$veryLightGray: hsl(0, 0%, 98%);
+
+// Dark mode text and light mode elemnents
+$white : hsl(0, 0%, 100%);
+
+.nav{
+
+    padding:30px 60px;
+    box-shadow: 0px 5px 10px -10px black;
+    display:flex;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+        .rightNav{
+        cursor:pointer;
+        font-weight: 600;
+        display:flex;
+        align-items: center;
+        i{
+            margin-right:10px;
+        }
+        }
+}
+
+@media only screen and (max-width:375px){
+.nav{
+    padding:30px 20px;
+    h3{
+        font-size:14px;
+    }
+    .rightNav{
+        font-size:14px;
+    }
+}
+}

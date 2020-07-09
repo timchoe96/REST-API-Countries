@@ -1,0 +1,45 @@
+
+
+// Dark mode elements
+$DarkBlue: hsl(209, 23%, 22%);
+
+// Dark mode background
+$veryDarkBlue: hsl(207, 26%, 17%);
+
+// Light mode text
+$veryDarkBlue: hsl(200, 15%, 8%);
+
+// Light mode input
+$darkGray: hsl(0, 0%, 52%);
+
+// Light mode background
+$veryLightGray: hsl(0, 0%, 98%);
+
+// Dark mode text and light mode elemnents
+$white : hsl(0, 0%, 100%);
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Nunito Sans';
+}
+
+.body{
+    // padding-bottom:65px;
+    transition: all 0.4s ease;
+}
+
+
+
+@import 'Nav';
+@import 'Search';
+@import 'Dropdown';
+@import 'Flags';
+@import 'Flag';
+@import 'Detail';
+@import 'Border';
+
